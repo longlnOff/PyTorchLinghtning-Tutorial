@@ -1,2 +1,4 @@
 dataset/MNIST
 lightning_logs
+*dataset*
+tb_logs
