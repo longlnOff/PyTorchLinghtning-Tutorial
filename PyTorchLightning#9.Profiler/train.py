@@ -50,7 +50,7 @@ if __name__ == "__main__":
     trainer.fit(model, datamodule=datamodule)
 
     # Evaluating model
-    trainer.evaluating(model, datamodule=datamodule)
+    trainer.validate(model, datamodule=datamodule)
 
     # Testing model
     trainer.test(model, datamodule=datamodule)

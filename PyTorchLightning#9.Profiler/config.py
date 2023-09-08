@@ -4,7 +4,7 @@ import torch
 # Training hyperparameters
 INPUT_SIZE = 784
 NUM_CLASSES = 10
-EPOCHS = 10
+EPOCHS = 2
 LEARNING_RATE = 1e-3
 BATCH_SIZE = 128
 
