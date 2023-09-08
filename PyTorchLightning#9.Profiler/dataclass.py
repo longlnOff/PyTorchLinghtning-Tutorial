@@ -59,3 +59,8 @@ class MyMnistDataModule(pl.LightningDataModule):
             num_workers=self.num_workers,
             shuffle=False,
         )
+
+
+if __name__=='__main__':
+
+    pass

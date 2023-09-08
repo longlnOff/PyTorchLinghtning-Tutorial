@@ -30,7 +30,7 @@ class NN(pl.LightningModule):
         # Flatten image
         x = x.reshape(x.shape[0], -1)
         logits = self.forward(x)
-        loss = F.cross_entropy(logits, y)
+        loss = self.loss_fn(logits, y)
         return loss, logits, y
 
     def training_step(self, batch, batch_idx):
